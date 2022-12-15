@@ -13,7 +13,7 @@ function Home({ cosmic }) {
   return (
     <div>
       <Head>
-        <title key="sitetitle">{ cosmic.post ? cosmic.post.title + ' |' : '' } Simple React Blog</title>
+        <title key="sitetitle">{ cosmic.post ? cosmic.post.title + ' |' : '' } Updated simple react blog</title>
       </Head>
       <Header cosmic={ cosmic }/>
       <main className="container">
